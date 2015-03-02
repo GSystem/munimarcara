@@ -17,7 +17,7 @@ background-image: -webkit-linear-gradient(top, #222222 0%, #3A4C24 200%);
 /* W3C Markup, IE10 Release Preview */ 
 background-image: linear-gradient(to bottom, #222222 0%, #3A4C24 200%);
 	font-family: 'Open Sans', sans-serif;
-	height: 1000px;
+	height: 2000px;
 }
 /*MENU1*/
 #menu1{
@@ -108,13 +108,71 @@ background-image: linear-gradient(to bottom, #222222 0%, #3A4C24 200%);
 h1{
 	color: blue;
 }
+
+/*linea*/
+.linea{
+	position: relative;
+	height:7px;
+	background-color: #fff;
+	z-index: 100;
+}
+/*fin linea*/
+
 /*FIN MENU2*/
+/*
+MENU PRINCIPAL*/
+.menuprincipal{
+	
+	padding-top: 5px;
+}
+.botonMenu{
+	height: 140px;
+	width: 140px;
+	background: #73A12D;
+	margin: 5px;
+}
+.botonMenuDerecha{
+	padding-right: 5px;
+}
+.botonMenuIzquierda{
+	padding-left: 5px;
+}
+
+
+.row-centered {
+    text-align:center;
+}
+.col-centered {
+    display:inline-block;
+    float:none;
+    /* reset the text-align */
+    text-align:left;
+    /* inline-block space fix */
+   
+}
+
+
+
+/*FIN MENU*/
 /* Extra Small */
+@media(max-width:480px){
+
+.botonMenu{
+	height: 80px;
+	width: 80px;
+	margin: 2px;
+}
+}
 @media(max-width:767px){
 
 }
 @media(min-width:768px){
 
+.botonMenu{
+	height: 150px;
+	width: 150px;
+	margin: 10px;
+}
 }
 /* Small */
 @media(min-width:768px) and (max-width:991px){
@@ -126,3 +184,8 @@ h1{
 
 /* Large */
 @media(min-width:1200px){}
+
+.umm{
+	height: 1000px;
+	
+}
