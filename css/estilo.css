@@ -1,5 +1,12 @@
 body{
-/* IE10 Consumer Preview */ 
+	font-family: 'Open Sans', sans-serif;
+	height: 2000px;
+}
+h1{
+	font-family: 'Archivo Black', sans-serif;
+}
+.color{
+	/* IE10 Consumer Preview */ 
 background-image: -ms-linear-gradient(top, #222222 0%, #3A4C24 200%);
 
 /* Mozilla Firefox */ 
@@ -16,8 +23,7 @@ background-image: -webkit-linear-gradient(top, #222222 0%, #3A4C24 200%);
 
 /* W3C Markup, IE10 Release Preview */ 
 background-image: linear-gradient(to bottom, #222222 0%, #3A4C24 200%);
-	font-family: 'Open Sans', sans-serif;
-	height: 2000px;
+
 }
 /*MENU1*/
 #menu1{
@@ -94,7 +100,32 @@ background-image: linear-gradient(to bottom, #222222 0%, #3A4C24 200%);
 }
 /*fin reloj*/
 /*FIN MENU1*/
+/*LOGO*/
+.divLogo{
+	position: absolute;
+	z-index: 101;
+	height: 90px;
+	width: 220px;
+	background-color: #3A4C24;
+	margin-left: 25px;
+	border-radius: 0px 0px 20px 20px;
+	padding: 0px 10px;	
+}
+.divLogo img{
+	height: 80px;
+}
+.divLogo h1{
 
+	font-size: 0.9em;
+	color: #fff;
+}
+.divLogo .divH1{
+	position: absolute;
+	display: inline-block;
+	padding: 0px 10px 0px 5px;
+}
+
+/*FIN LOGO*/
 /*MENU 2*/
 .navbar-fixed-bottom, .navbar-fixed-top{
 	position: relative;	
@@ -104,16 +135,14 @@ background-image: linear-gradient(to bottom, #222222 0%, #3A4C24 200%);
 }
 .navbar-inverse{
 	background-color: rgba(255, 255, 255, 0);
-}
-h1{
-	color: blue;
+	border-color: rgba(255, 255, 255, 0);
 }
 
 /*linea*/
 .linea{
 	position: relative;
 	height:7px;
-	background-color: #fff;
+	background-color: #3A4C24;
 	z-index: 100;
 }
 /*fin linea*/
